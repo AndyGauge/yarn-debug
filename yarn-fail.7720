@@ -1,0 +1,3 @@
+set_robust_list(0x7fb2d32939e0, 24)     = 0
+futex(0x2353c60, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, ffffffff <unfinished ...>
++++ exited with 1 +++

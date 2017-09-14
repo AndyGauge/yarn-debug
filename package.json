@@ -1,0 +1,13 @@
+{
+  "name": "yarn_test",
+  "version": "1.0.0",
+  "description": "yarn testing",
+  "main": "index.js",
+  "repository": "github.com/andygauge/yarntest",
+  "author": "andygauge",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}

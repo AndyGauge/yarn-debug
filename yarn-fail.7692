@@ -1,0 +1,55 @@
+close(10)                               = 0
+close(3)                                = 0
+dup2(4, 1)                              = 1
+close(4)                                = 0
+stat("/home/andy/.cargo/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.cargo/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/gems/ruby-2.4.0/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/gems/ruby-2.4.0@global/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/rubies/ruby-2.4.0/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/usr/local/heroku/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/uname", 0x7fffe65f1560) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/uname", 0x7fffe65f1560)  = -1 ENOENT (No such file or directory)
+stat("/sbin/uname", 0x7fffe65f1560)     = -1 ENOENT (No such file or directory)
+stat("/bin/uname", {st_mode=S_IFREG|0755, st_size=31440, ...}) = 0
+execve("/bin/uname", ["uname", "-s"], [/* 29 vars */]) = 0
+brk(NULL)                               = 0x21e7000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3820f60000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=24781, ...}) = 0
+mmap(NULL, 24781, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3820f66000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3820830000
+mprotect(0x7f38209f0000, 2097152, PROT_NONE) = 0
+mmap(0x7f3820bf0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f3820bf0000
+mmap(0x7f3820bf6000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3820bf6000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3820f50000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3820f40000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3820f30000
+arch_prctl(ARCH_SET_FS, 0x7f3820f40700) = 0
+mprotect(0x7f3820bf0000, 16384, PROT_READ) = 0
+mprotect(0x606000, 4096, PROT_READ)     = 0
+mprotect(0x7f3820e25000, 4096, PROT_READ) = 0
+munmap(0x7f3820f66000, 24781)           = 0
+brk(NULL)                               = 0x21e7000
+brk(0x2208000)                          = 0x2208000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1668976, ...}) = 0
+mmap(NULL, 1668976, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3820c8d000
+close(3)                                = 0
+uname({sysname="Linux", nodename="agauger", ...}) = 0
+fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+write(1, "Linux\n", 6)                  = 6
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

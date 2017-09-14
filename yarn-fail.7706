@@ -1,0 +1,30 @@
+close(10)                               = 0
+close(3)                                = 0
+dup2(4, 1)                              = 1
+close(4)                                = 0
+pipe([3, 4])                            = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdee61609d0) = 7707
+close(4)                                = 0
+stat("/home/andy/.cargo/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.cargo/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/gems/ruby-2.4.0/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7707, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[]})                 = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/gems/ruby-2.4.0@global/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/home/andy/.rvm/rubies/ruby-2.4.0/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/heroku/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/sed", 0x7ffffaaf1da0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/sed", 0x7ffffaaf1da0)   = -1 ENOENT (No such file or directory)
+stat("/usr/bin/sed", 0x7ffffaaf1da0)    = -1 ENOENT (No such file or directory)
+stat("/sbin/sed", 0x7ffffaaf1da0)       = -1 ENOENT (No such file or directory)
+stat("/bin/sed", {st_mode=S_IFREG|0755, st_size=73424, ...}) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdee61609d0) = 7708
+close(3)                                = 0
+close(-1)                               = -1 EBADF (Bad file descriptor)
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7707
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7708
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7708, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigreturn({mask=[]})                 = 7708
+exit_group(0)                           = ?
++++ exited with 0 +++

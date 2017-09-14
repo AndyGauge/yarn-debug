@@ -1,0 +1,6 @@
+close(3)                                = 0
+dup2(4, 1)                              = 1
+close(4)                                = 0
+write(1, "/usr/bin/yarnpkg\n", 17)      = 17
+exit_group(0)                           = ?
++++ exited with 0 +++
